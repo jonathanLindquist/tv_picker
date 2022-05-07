@@ -45,8 +45,8 @@ export interface IEpisodeProps {
     state: IState;
     dispatch: Dispatch;
   };
-  toggleFavAction: FavAction;
-  favorites: Array<IEpisode>;
+  toggleFavAction?: FavAction;
+  favorites?: Array<IEpisode>;
 }
 
 export interface IProps {

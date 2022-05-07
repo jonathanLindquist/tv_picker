@@ -1,6 +1,6 @@
 import React, { useReducer, createContext } from "react";
 import { JsxAttributeLike } from "typescript";
-import { IState, IAction } from "./interfaces";
+import { IState, IAction } from "../interfaces";
 
 const initialState: IState = { episodes: [], favorites: [] };
 
